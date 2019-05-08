@@ -1,0 +1,7 @@
+{
+  "appId": "com.velasco.appionic",
+  "appName": "App",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}
