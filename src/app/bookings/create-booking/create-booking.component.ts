@@ -20,7 +20,7 @@ export class CreateBookingComponent implements OnInit {
   }
 
   onBookPlace() {
-    this.modalCtrl.dismiss({message: 'This is a dummy message'}, confirm);
+    this.modalCtrl.dismiss({message: 'This is a dummy message', confirm: 'this is a dummy text'});
   }
 
 }
