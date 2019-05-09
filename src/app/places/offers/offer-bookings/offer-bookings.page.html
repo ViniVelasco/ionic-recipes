@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>offer-bookings</ion-title>
+    <ion-title>{{ place.title }}</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button routerLink="/places/tabs/offers/new">
+        <ion-icon name="add" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
+  
 <ion-content>
-
+  <ion-button margin color="primary" [routerLink]="['/places', 'tabs', 'offers', 'edit',  place.id]">Edit</ion-button>
 </ion-content>
+  
